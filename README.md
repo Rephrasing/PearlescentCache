@@ -23,9 +23,9 @@ Gradle (Kotlin):
 ```kt
 repositories {
     mavenCentral()
-    maven { url "https://jitpack.io" }
+    maven { url = uri("https://jitpack.io") }
 }
 dependencies {
-     implementation 'io.github.rephrasing.pearlescent:pearlescentcache:-SNAPSHOT'
+     implementation("io.github.rephrasing.pearlescent:pearlescentcache:-SNAPSHOT")
 }
 ```
