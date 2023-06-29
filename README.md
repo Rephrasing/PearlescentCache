@@ -4,7 +4,7 @@ A simple mutable caching system
 How to get the library:
 
 Maven:
-```
+```xml
 <repositories>
   <repository>
       <id>jitpack.io</id>
@@ -20,7 +20,7 @@ Maven:
 ```
 
 Gradle (Kotlin):
-```
+```kt
 repositories {
     mavenCentral()
     maven { url "https://jitpack.io" }
